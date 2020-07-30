@@ -1,0 +1,61 @@
+{
+  "name": "@romger/react-text-editor",
+  "version": "1.0.0",
+  "description": "@romger/react-text-editor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rom-ger/romger-react-text-editor"
+  },
+  "author": "Romger",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "dependencies": {
+    "@romger/react-flex-layout": "1.0.0",
+    "@romger/react-input": "1.0.2",
+    "@romger/react-modal-dialog": "1.0.1",
+    "@types/react": "16.9.5",
+    "classnames": ">=2.2.5",
+    "jodit": "3.4.14",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.2.2",
+    "babel-loader": "6.4.1",
+    "babel-plugin-transform-class-properties": "6.3.13",
+    "babel-plugin-transform-object-assign": "6.8.0",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.2.2",
+    "babel-preset-es2015": "6.24.0",
+    "babel-preset-react": "6.23.0",
+    "babel-preset-stage-0": "6.24.1",
+    "babelify": "7.2.0",
+    "del": "3.0.0",
+    "eslint-loader": "1.6.3",
+    "eslint-plugin-jsx": "0.0.2",
+    "gulp": "3.9.0",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-babel": "7.0.1",
+    "gulp-concat": "2.6.1",
+    "gulp-eslint": "4.0.2",
+    "gulp-load-plugins": "1.5.0",
+    "gulp-minify-css": "1.2.4",
+    "gulp-sass": "3.0.0",
+    "gulp-sourcemaps": "2.5.0",
+    "gulp-uglify": "1.5.4",
+    "gulp-util": "3.0.8",
+    "sass-lint": "1.12.1",
+    "vinyl-buffer": "1.0.1"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
+}

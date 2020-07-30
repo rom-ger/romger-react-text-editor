@@ -1,0 +1,75 @@
+$line-color: #e8e8e8;
+$warning-color: #da0000;
+$disabled-color: #eceff1;
+$default-border: 1px solid $line-color;
+
+.ws-react-text-editor {
+  width: 100%;
+  min-height: 300px;
+  margin: 0;
+  border: $default-border;
+
+  &__disabled-wrap {
+    width: 100%;
+    max-width: 100%;
+    padding: 24px;
+    background: $disabled-color;
+    overflow: auto;
+  }
+
+  .rdw-image-modal {
+    position: fixed;
+    top: calc(50% - 120px);
+    left: calc(50% - 270px);
+    width: 540px;
+  }
+
+  .rdw-image-modal-btn {
+    width: 90px;
+  }
+
+  .rdw-dropdown-optionwrapper {
+    width: 180px;
+  }
+
+  .rdw-colorpicker-modal {
+    position: fixed;
+    top: calc(50% - 122px);
+    left: calc(50% - 122px);
+    width: 245px;
+    height: 245px;
+  }
+
+  .rdw-colorpicker-modal-options {
+    overflow: none;
+  }
+
+  .rdw-link-modal {
+    position: fixed;
+    top: calc(50% - 120px);
+    left: calc(50% - 225px);
+    width: 450px;
+    height: 240px;
+  }
+
+  .rdw-link-modal-btn {
+    width: 90px;
+  }
+
+  .rdw-block-dropdown {
+    width: 180px;
+  }
+
+  .rdw-editor-main {
+    padding: 0 5px;
+  }
+}
+
+.max-length-wrap {
+  width: 100%;
+  height: 24px;
+
+  &__error {
+    color: $warning-color;
+  }
+}

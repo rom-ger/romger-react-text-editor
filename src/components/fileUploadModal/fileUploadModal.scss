@@ -1,0 +1,14 @@
+.file-upload-modal {
+  input[type='file'] {
+    margin-bottom: 20px;
+  }
+
+  &__change-file-button {
+    width: 100px;
+    margin-left: 20px;
+  }
+
+  &__file-link {
+    margin-bottom: 20px;
+  }
+}
